@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MedWord • Medical Word of the Day</title>
+  <meta name="description" content="Daily medical word, quick facts, quizzes, and a searchable glossary for students and curious minds. Educational, not medical advice." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">🩺</span>
+      <h1>MedWord</h1>
+    </div>
+    <nav class="nav">
+      <a href="#word">Word</a>
+      <a href="#fact">Fact</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#glossary">Glossary</a>
+      <button id="themeToggle" class="btn ghost" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="word" class="card">
+      <h2>Word of the Day</h2>
+      <div id="wordContent" class="word">
+        <div class="loading">Loading word…</div>
+      </div>
+      <p class="disclaimer">For education only — not medical advice.</p>
+    </section>
+
+    <section id="fact" class="card">
+      <h2>Medical Fact</h2>
+      <div id="factContent">
+        <div class="loading">Loading fact…</div>
+      </div>
+    </section>
+
+    <section id="quiz" class="card">
+      <h2>Quick Quiz</h2>
+      <div id="quizContent">
+        <p>Test yourself: match the definition to the correct term.</p>
+        <button id="newQuiz" class="btn">New Question</button>
+        <div id="quizArea" class="quiz-area" hidden></div>
+      </div>
+    </section>
+
+    <section id="glossary" class="card">
+      <h2>Glossary & Search</h2>
+      <input id="searchInput" type="search" placeholder="Search terms (e.g., anatomy, neuron)" aria-label="Search medical terms" />
+      <div id="results" class="results"></div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p><strong>MedWord</strong> is a student-built project that shares a daily medical term, bite‑size facts, and quick quizzes to make learning medicine approachable and fun. Content is curated from reputable sources and simplified for education. Always consult qualified professionals for health concerns.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> MedWord • Educational content only • <a href="#" id="openSources">Sources</a></small>
+  </footer>
+
+  <dialog id="sourcesDialog">
+    <form method="dialog">
+      <h3>Sources & Credits</h3>
+      <div id="sourcesList"></div>
+      <menu>
+        <button class="btn">Close</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
