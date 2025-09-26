@@ -1,0 +1,53 @@
+[
+  {
+    "term": "Anatomy",
+    "pronunciation": "uh-NAT-uh-mee",
+    "partOfSpeech": "noun",
+    "shortDefinition": "The study of the structure of living organisms.",
+    "longDefinition": "Anatomy is a branch of biology focused on how body parts are arranged and related. It includes gross anatomy (structures visible to the naked eye) and microscopic anatomy (histology).",
+    "example": "We used a model skeleton in anatomy to learn the names of bones.",
+    "tags": [
+      "foundation",
+      "biology"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Physiology",
+    "pronunciation": "fiz-ee-OL-uh-jee",
+    "partOfSpeech": "noun",
+    "shortDefinition": "The study of how living organisms function.",
+    "longDefinition": "Physiology examines how cells, tissues, and organs work together to maintain life, including processes like breathing, circulation, and nerve signaling.",
+    "example": "In physiology we learned how the heart pumps blood through the body.",
+    "tags": [
+      "foundation",
+      "biology"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Neuron",
+    "pronunciation": "NOO-ron",
+    "partOfSpeech": "noun",
+    "shortDefinition": "A nerve cell that sends and receives signals in the nervous system.",
+    "longDefinition": "Neurons transmit information using electrical impulses and chemical signals. They typically include a cell body, dendrites, and an axon.",
+    "example": "A neuron communicates with other cells at a synapse.",
+    "tags": [
+      "neuro",
+      "cell"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Homeostasis",
+    "pronunciation": "hoh-mee-oh-STAY-sis",
+    "partOfSpeech": "noun",
+    "shortDefinition": "The body's ability to maintain stable internal conditions.",
+    "longDefinition": "Homeostasis keeps factors like temperature, pH, and fluid balance within ranges that support life, using feedback systems.",
+    "example": "Sweating helps maintain homeostasis by cooling the body.",
+    "tags": [
+      "physiology"
+    ],
+    "sources": []
+  }
+]
